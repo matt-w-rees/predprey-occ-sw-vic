@@ -1,0 +1,17 @@
+"","region","sess","data_source","block","treatment","surveys","min_year","max_year","sites","min_mindist","mean_mindist","max_mindist"
+"1","Glenelg","glenelg_ark_annya","Glenelg Ark","Annya","non-treatment",7,2013,2019,40,683.46338964868,987.514030027236,1509.22563617091
+"2","Glenelg","glenelg_ark_cobb","Glenelg Ark","Cobboboonee","treatment",7,2013,2019,40,361.814492221743,982.005537519288,2351.02791273929
+"3","Glenelg","glenelg_ark_hotspur","Glenelg Ark","Hotspur","non-treatment",7,2013,2019,40,334.636511465146,816.889272895662,1319.36783617951
+"4","Glenelg","glenelg_ark_lgnp_n","Glenelg Ark","LGNP N","non-treatment",7,2013,2019,40,275.465119108578,686.620908708651,1827.80348957525
+"5","Glenelg","glenelg_ark_lgnp_s","Glenelg Ark","LGNP S","treatment",7,2013,2019,40,502.153242059087,1120.42830267932,2686.49708459314
+"6","Glenelg","glenelg_ark_mtclay","Glenelg Ark","Mt Clay","treatment",7,2013,2019,40,177.994066869601,606.63676580354,1067.72802576554
+"7","Glenelg","matt_annya","MWR PhD","Annya","non-treatment",1,2018,2018,110,307.075998837829,468.876887085852,622.805313936638
+"8","Glenelg","matt_cobb","MWR PhD","Cobboboonee","treatment",1,2018,2018,110,274.452646682134,452.03811163519,508.801861437347
+"9","Glenelg","matt_hotspur","MWR PhD","Hotspur","non-treatment",1,2018,2018,99,242.188137133242,427.85386524075,594.140487878694
+"10","Glenelg","matt_mtclay","MWR PhD","Mt Clay","treatment",1,2018,2018,106,209.428739747882,445.152354369558,670.806173169817
+"11","Otways","matt_north","MWR PhD","North","non-treatment",3,2017,2019,104,237.517859740982,433.587743617534,714.350836894177
+"12","Otways","matt_south","MWR PhD","South","treatment",3,2017,2019,91,86.4864470350364,436.158951417797,716.589860519132
+"13","Otways","otway_ark_FA1","Otway Ark","FA1","treatment",3,2016,2018,80,277.37853496486,996.341558240122,1825.43612778725
+"14","Otways","otway_ark_FA2","Otway Ark","FA2","treatment",3,2016,2018,80,638.026755415193,938.217273414705,1865.14361627562
+"15","Otways","otway_ark_FA3","Otway Ark","FA3","treatment",3,2016,2018,140,738.941074733587,1490.56398118003,3514.10343079577
+"16","Otways","otway_ark_FA4","Otway Ark","FA4","non-treatment",3,2017,2019,73,634.454149491651,1560.2365665187,4149.98055745957
