@@ -1,3 +1,6 @@
+# SAVE A PLOT OF FIRE EFFECTS ON THE RESPONSE SCALE FOR EACH SPECIES 
+# Matthew Rees
+
 library(ggplot2)
 library(patchwork)
 

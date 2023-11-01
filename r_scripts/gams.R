@@ -1,6 +1,6 @@
+# THIS SCRIPTS FITS GENERALISED ADDITIVE MODELS TO OCCURRENCE DATA IN SW VICTORIA OF FOXES, CATS, LONG-NOSED POTOROOS AND SOUTHERN BROWN BANDICOOTS
+# Matthew Rees
 
-rm(list = ls())
-options(scipen = 999) 
 
 ## Load packages
 library(mgcv)
@@ -18,7 +18,7 @@ records <- read.csv("raw_data/raw_data_gams_pa.csv")
 ## VARIABLES
 # region - Glenelg or Otway Ranges
 # block - forest block. Glenelg = distinct forests, Otways = focal areas (Otway Ark data) + north / south (matts cat grids / zoi's surveys)
-# data_source - dataset owner: Matt Rees (phd surveys), Zoi Banikos (masters surveys), Glenelg Ark camera-trap dataset 2013-19, Otway Ark dataset 2016-18
+# data_source - dataset owner: Matt Rees (phd surveys), Glenelg Ark camera-trap dataset 2013-19, Otway Ark dataset 2016-18
 # station - unique ID for camera-trap site
 # longitude - coordiantes for location of cam-trap site
 # latitude - coordiantes for location of cam-trap site
@@ -50,8 +50,6 @@ records <- read.csv("raw_data/raw_data_gams_pa.csv")
 # ADJUST DATA ------------------------------------------------------------
 
 ## Drop camera-traps from dataset
-# drop zoi's surveys - too much spatial autocorrelation (50 x 50 m grids)
-records <- filter(records, data_source != "zoi")
 # exclude stations left out for less than 10 days - can't trust em
 records <- filter(records, survey_duration >= 10)
 # only had three deployments of "Riverine Grassy Woodlands or Forests" vegetation type --> just remove em
